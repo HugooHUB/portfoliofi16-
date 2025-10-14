@@ -1,0 +1,73 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 20px;
+    background: #f4f7fb;
+    color: #333;
+}
+
+h1 {
+text-align: center;
+    color: #7abdff;
+    margin-bottom: 15px;
+}
+
+a {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #2980b9;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+    background: #fff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 12px;
+    font-size: 14px;
+}
+
+th {
+    background: #34495e;
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+/* Colores alternados en filas */
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Colores según asignatura */
+td {
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+td:empty {
+    background: #f0f0f0;
+}
+
+/* Materias con colores personalizados */
+td:contains("SSN") { background: #f39c12; color: white; }
+td:contains("E1B") { background: #16a085; color: white; }
+td:contains("SGF") { background: #8e44ad; color: white; }
+td:contains("SRC") { background: #c0392b; color: white; }
+td:contains("IPW") { background: #2980b9; color: white; }
+td:contains("APW") { background: #27ae60; color: white; }
+td:contains("SOJ") { background: #d35400; color: white; }
+.,.
