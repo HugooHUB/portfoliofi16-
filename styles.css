@@ -1,7 +1,50 @@
-header{
-    font-size: 45px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: rgb(152, 144, 141);
-    font-weight: bold;
-    margin: 21px;
+:root{
+    --blanco: #fff;
+    --oscuro: #212121;
+    --primario: #ffc107;
+    --secundario: #0097A7;
+    --gris: #757575;
+    --gris-claro: #dfe9f3;
+
+
+
+
 }
+
+.boton{
+    background-color: var(--secundario);
+    color: var(--blanco);
+    padding: 1rem 3rem;
+    margin-top:  3rem;
+    font-size: 2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 0.5rem;
+    width: 90%;
+    text-align: center;
+    border: none;
+}
+
+.navegacion-principal a{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 2rem;
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
