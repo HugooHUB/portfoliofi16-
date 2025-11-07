@@ -31,6 +31,7 @@
     text-align: center;
     text-decoration: none;
     font-size: 2rem;
+    padding: 1rem;
 
 }
 html {
@@ -62,10 +63,13 @@ h1 span {
     padding: 2rem;
     border-radius: 1rem;
 
-
-
 }
 
+body {
+    background-color: #70e1f0;;
+    background: linear-gradient(0deg, #9ec3ff 0%, #a17fb8 100%);
+    
+}
 
 
 
