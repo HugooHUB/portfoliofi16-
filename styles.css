@@ -28,7 +28,6 @@
 }
 
 .navegacion-principal a{
-    display:
     text-align: center;
     text-decoration: none;
     font-size: 2rem;
@@ -83,6 +82,74 @@ body {
 .bg-color-nav{
  background-color: var(--gris-claro);
 
+
+
+
+}
+.hero {
+    background-image: url(/horario/images/hero.jpg);
+    background-size: cover;
+    background-repeat: repeat;
+    height: 45rem;
+    margin-bottom: 2rem;
+}
+
+.contenedor-hero {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0 0 0 / 70%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
+.contenedor-hero h2,
+
+.contenedor-hero p{
+color:var(--blanco)
+
+
+}
+
+.contenedor-hero .ubicacion{
+    display:flex;
+    align-items: center;
+
+
+}
+.Servicios{
+display: flex;
+flex-direction: row;
+align-items: center;
+
+}
+.servicio {
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+
+}
+.icono{
+height: 15rem;
+width: 15rem;
+background-color: var( -- primario);
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.servicio p{
+text-align: center;
+padding: 2rem;
+}
+
+.servicio h3{
+    color: var(--secundario);
+    font-weight: 700;
 
 
 
