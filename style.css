@@ -1,0 +1,54 @@
+   .body {
+    background-color: hsl(228, 45%, 44%);
+    width: 90%;
+    max-width: 38rem;
+    margin-top: 2rem;
+    border-radius: 1.2rem;
+   }
+   
+   
+   .attribution {
+      font-size: 1.1rem;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+      
+    }
+
+    .boton {
+        display: block;
+        background-color: hsl(224, 83%, 49%);
+        color: white;
+        text-align: center;
+        padding: 1.2rem;
+        border-radius: 0.6rem;
+        margin-top: 1.5rem;
+        text-decoration: none;
+        font-weight: bold;
+
+    }
+
+
+    .h2 {
+        margin-top: auto;
+        text-align: center;
+        font-size: 2rem;
+
+    }
+
+    .buton{
+        background-color: white;
+        padding: 2rem;
+        color: rgb(207, 197, 197);
+        font-size: 1.4rem;
+        box-shadow: 0.10rem;
+        display: block;
+
+
+    }
+
+
+
+    
